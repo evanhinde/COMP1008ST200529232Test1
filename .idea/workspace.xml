@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d99e2c44-bfe9-40b6-aeb6-5a187dd6ed7f" name="Changes" comment="question 2 complete">
+    <list default="true" id="d99e2c44-bfe9-40b6-aeb6-5a187dd6ed7f" name="Changes" comment="question 3 complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Clothing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clothing.java" afterDir="false" />
     </list>
@@ -60,7 +60,10 @@
       <workItem from="1675370709676" duration="156000" />
       <workItem from="1675370898539" duration="382000" />
       <workItem from="1675371342427" duration="167000" />
-      <workItem from="1675371529736" duration="337000" />
+      <workItem from="1675371529736" duration="397000" />
+      <workItem from="1675371959220" duration="88000" />
+      <workItem from="1675372071779" duration="258000" />
+      <workItem from="1675372373183" duration="502000" />
     </task>
     <task id="LOCAL-00001" summary="question 2 complete">
       <created>1675371490938</created>
@@ -69,7 +72,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675371490939</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="question 3 complete">
+      <created>1675371887136</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675371887136</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,6 +87,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="question 2 complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="question 2 complete" />
+    <MESSAGE value="question 3 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="question 3 complete" />
   </component>
 </project>

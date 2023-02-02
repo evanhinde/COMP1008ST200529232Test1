@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.List;
 import java.util.ArrayList;
 
@@ -32,19 +33,50 @@ public class Clothing {
         return colour;
     }
 
+    public static List<String> getValidBrands()
+    {
+        return Arrays.asList("Roots","Lululemon","Club Monaco","Nike", "Puma");
+    }
+    public static List<String> getValidDescriptions()
+    {
+        return Arrays.asList("sweater","t-shirt","jeans","socks");
+    }
+    public static List<String> getValidColours()
+    {
+        return Arrays.asList("blue","white","grey","pink","black");
+    }
+
     public void setBrand(String brand) {
-        this.brand = brand;
+        if(getValidBrands().contains(brand))
+            this.brand = brand;
+        else
+            throw new IllegalArgumentException(brand + "must be in the list of" +
+                    getValidBrands());
     }
 
     public void setDescription(String description) {
-        this.description = description;
+        if(getValidDescriptions().contains(description))
+            this.description = description;
+        else
+            throw new IllegalArgumentException(description + "must be in the list of" +
+                    getValidDescriptions());
     }
     public void setPrice(Double price) {
-    this.price = price;}
+        if(price>0 && price<301)
+            this.price = price;
+        else
+            throw new IllegalArgumentException(price + "must be above 0 and below 301")
+    }
 
     public void setColour(String colour) {
-        this.colour = colour;
+        if(getValidColours().contains(colour))
+            this.colour = colour;
+        else
+            throw new IllegalArgumentException(colour + "must be in the list of" +
+                    getValidColours());
     }
+
+
 }
 
 
