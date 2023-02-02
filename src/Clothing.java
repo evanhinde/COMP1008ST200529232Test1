@@ -65,7 +65,7 @@ public class Clothing {
         if(price>0 && price<301)
             this.price = price;
         else
-            throw new IllegalArgumentException(price + "must be above 0 and below 301")
+            throw new IllegalArgumentException(price + "must be above 0 and below 301");
     }
 
     public void setColour(String colour) {
@@ -76,6 +76,11 @@ public class Clothing {
                     getValidColours());
     }
 
+    @Override
+    public String toString()
+    {
+        return colour + " " + description;
+    }
 
 }
 
