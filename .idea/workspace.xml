@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d99e2c44-bfe9-40b6-aeb6-5a187dd6ed7f" name="Changes" comment="3.">
-      <change afterPath="$PROJECT_DIR$/src/Closet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Clothing.java" afterDir="false" />
+    <list default="true" id="d99e2c44-bfe9-40b6-aeb6-5a187dd6ed7f" name="Changes" comment="question 2 complete">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Clothing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Clothing.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,10 +59,24 @@
       <workItem from="1675370476023" duration="211000" />
       <workItem from="1675370709676" duration="156000" />
       <workItem from="1675370898539" duration="382000" />
+      <workItem from="1675371342427" duration="167000" />
+      <workItem from="1675371529736" duration="337000" />
     </task>
+    <task id="LOCAL-00001" summary="question 2 complete">
+      <created>1675371490938</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675371490939</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="question 2 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="question 2 complete" />
   </component>
 </project>
